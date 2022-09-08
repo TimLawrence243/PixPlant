@@ -1,0 +1,37 @@
+User Guide
+To use:
+When the app appears, you should be greeted by the MainActivity page, which shows an 'Enter' button.  Click 'Enter'
+The HomeScreen will appear, showing plants that need to be watered that day.  The app will default to no Plants and No Shelves
+Click 'View All Shelves to move to ShelfList
+ShelfList shows a list of all 'Shelves'
+Click 'Add New Shelf' to input a new shelf
+Add details for the shelf (Name is required, description is optional)
+Example - Name: Top Shelf // Description: Top shelf of white shelves
+Click 'Save' to add the shelf
+Once a Shelf is input, click the name of the shelf in the list to move to PlantList
+PlantList shows a list of all 'Plants' on that shelf.  Default is none.
+Click 'Add a Plant to this Shelf'
+Add details for the plant (Name, detail (optional), and how often to water)
+Example - Name: Monstera Albo // Detail: Large leaves with fenestrations // Days to Water: 7
+Click 'Save' to add the plant to the shelf
+Click the Plant in the list to show details
+
+You now have a Shelf with one Plant!
+PixPlant will track when to water it.  The watering cycles are based on the creation date of your plant.
+Since the plant was just created, clicking 'Back' buttons back to the Home Screen will show your plant needs to be watered today.
+Add as many Shelves and Plants to each shelf as needed.
+As more plants are added and more days pass the HomeScreen will become more useful.
+Utilize the 'Yesterday' and 'Tomorrow' buttons on the homescreen if you've forgotten to check the app the day before or need a headstart on tomorrow.
+Plants can be moved from one shelf to another by clicking the 'Move to a Different Shelf' button when selecting a plant
+Shelves and Plants can be deleted from the PlantList page and PlantDetail page, respectively.
+Shelves cannot be deleted if they have plants on them.  Move or delete the plants on the shelf first.
+Shelves and Plants can be edited if you would like to change their name, description, or even days between waterings.
+
+Notifications:
+To set up notifications, click the 'Settings' button from the Home Screen.
+PixPlant will automatically generate one notification a day detailing how many plants need to be watered that day in the notification
+Type an hour and minute of the day you would like to be notified that works with your schedule
+Note: The hours are in 24 hour format.  Therefore, if you would like a notification at midnight each day, enter '0' for hours and '0' for minutes
+If you would like to be notified at 6:15PM each day, enter '18' for hours and '15' for minutes
+Click 'Save' after entering the time you would like to be notified.
+The notifications are based on your device's system time - If your device is set three hours ahead of actual time, the notifications will likewise come three hours ahead.
